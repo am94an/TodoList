@@ -1,0 +1,125 @@
+body {
+  background: radial-gradient(circle at bottom left, transparent 25%, #ffffff 25.5%, #ffffff 36%, transparent 37%, transparent 100%), 
+  radial-gradient(circle at top right, transparent 34%, #ffffff 34.5%, #ffffff 45.5%, transparent 46%, transparent 100%);
+background-size: 3em 3em;
+background-color: #78c1f3;
+opacity: 1;
+animation: moveBackground 100s infinite linear;  
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  background: #ffffff;
+  padding: 30px;
+  width: 100%;
+  max-width: 400px; 
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.todo-header {
+  font-size: 24px;
+  color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.todo-body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #edeef0;
+  border-radius: 20px;
+  padding: 12px 20px;
+  margin-bottom: 20px;
+}
+
+.todo-body input {
+  flex: 1;
+  border: none;
+  outline: none;
+  background: transparent;
+  padding: 10px;
+  font-size: 18px;
+  color: #555;
+  border-radius: 15px;
+}
+
+.add-btn {
+  cursor: pointer;
+  border-radius: 50%;
+  height: 45px;
+  width: 45px;
+  background: limegreen;
+  color: #fff;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s;
+}
+
+.add-btn:hover {
+  background: #4CAF50;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  list-style: none;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #edeef0;
+  padding: 12px 15px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+li.completed {
+  text-decoration: line-through;
+  color: #999;
+}
+
+.todo-controls {
+  display: flex;
+  gap: 10px;
+}
+
+.edit-btn, .delete-btn {
+  cursor: pointer;
+  font-size: 18px;
+  color: #333;
+  background: transparent;
+  border: none;
+  outline: none;
+}
+
+.edit-btn:hover {
+  color: #4CAF50;
+}
+
+.delete-btn:hover {
+  color: #f44336;
+}
+
+@keyframes moveBackground {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 100% 100%;
+  }
+}
