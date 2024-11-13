@@ -13,11 +13,11 @@ A simple and interactive ToDo List web application built using **React.js**. Thi
 
 ## Screenshots
 
-![Todo List Screenshot](./assets/screenshot.png)
+![Todo List Screenshot](./screen.png)
 
 ## Demo
 
-You can view the live demo of the project [here](#) (replace with your demo link).
+You can view the live demo of the project [here](#).
 
 ## Installation
 
@@ -31,7 +31,7 @@ To get started with this project locally, follow the steps below:
    npm install
    npm start
 
-Technologies Used
+## Technologies Used
 React.js: JavaScript library for building user interfaces.
 CSS: For styling the app (with custom styles).
 localStorage: To persist tasks between page reloads.
