@@ -32,6 +32,6 @@ To get started with this project locally, follow the steps below:
    npm start
 
 ## Technologies Used
-React.js: JavaScript library for building user interfaces.
-CSS: For styling the app (with custom styles).
-localStorage: To persist tasks between page reloads.
+- **React.js**: JavaScript library for building user interfaces.
+- **CSS**: For styling the app (with custom styles).
+- **localStorage**: To persist tasks between page reloads.
